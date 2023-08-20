@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHOCOMOCHIC</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+      <div class="mb-move-item"></div>
+      <div class="mb-nav-item active">
+        <a href="#home">
+          <i class="bx bxs-home"></i>
+        </a>
+      </div>
+      <div class="mb-nav-item">
+        <a href="#about">
+          <i class="bx bxs-wink-smile"></i>
+        </a>
+      </div>
+      <div class="mb-nav-item">
+        <a href="#food-menu-section">
+          <i class="bx bxs-food-menu"></i>
+        </a>
+      </div>
+      <div class="mb-nav-item">
+        <a href="#testimonial">
+          <i class="bx bxs-comment-detail"></i>
+        </a>
+      </div>
+    </div>
+    <!-- END MOBILE NAV -->
+    <!-- BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+      <i class="bx bxs-to-top"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
+    <!-- TOP NAVIGATION -->
+    <div class="nav">
+      <div class="menu-wrap">
+        <a href="#home">
+          <div class="logo">Chocomochic</div>
+        </a>
+        <div class="menu h-xs">
+          <a href="#home">
+            <div class="menu-item active">Home</div>
+          </a>
+          <a href="#about">
+            <div class="menu-item">About</div>
+          </a>
+          <a href="#food-menu-section">
+            <div class="menu-item">Menu</div>
+          </a>
+          <a href="#testimonial">
+            <div class="menu-item">Testimonials</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- END TOP NAVIGATION -->
+    <!-- SECTION HOME -->
+    <section
+      id="home"
+      class="fullheight align-items-center bg-img bg-img-fixed"
+      style="background-image: url(assets/bannerhero.avif)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-xs-12">
+            <div class="slogan">
+              <h1
+                class="left-to-right play-on-scroll"
+                style="font-size: 400%; margin-top: 80px"
+              >
+                Desert & Puding by Chocomochic
+              </h1>
+              <p
+                class="left-to-right play-on-scroll delay-2"
+                style="color: rgb(255, 255, 255)"
+              >
+                Selamat Datang di Surga Manis Kami! Nikmati Kelezatan Setiap
+                Gigitan Dalam menu spesial kami, kami bangga mempersembahkan
+                pilihan lezat dari makanan penutup terbaik dunia. Dari berbagai
+                jenis dessert hingga puding mewah, kami hadirkan untuk Anda
+                pengalaman yang tak terlupakan dalam setiap suapan.
+              </p>
+
+              <div
+                class="left-to-right play-on-scroll delay-4"
+                style="margin-top: 60px; color: #ff790b"
+              >
+                <a href="index.html#food-menu-section">Order now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION HOME -->
+    <!-- SECION ABOUT -->
+    <section class="about fullheight align-items-center" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 h-xs">
+            <img
+              src="assets/banner2.jpg"
+              alt=""
+              class="fullwidth left-to-right play-on-scroll"
+            />
+          </div>
+          <div class="col-5 col-xs-12 align-items-center">
+            <div class="about-slogan right-to-left play-on-scroll">
+              <h3>
+                <span class="primary-color">We</span> create
+                <span class="primary-color">delicious</span> memories for
+                <span class="primary-color">you</span>
+              </h3>
+              <p>
+                Menyulap Rasa menjadi Kenangan Lezat: Setiap suap makanan
+                penutup kami adalah ciptaan kenangan lezat yang kami hadirkan
+                khusus untuk Anda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SECION ABOUT -->
+
+    <!-- FOOD MENU SECTION -->
+    <section
+      class="align-items-center bg-img bg-img-fixed"
+      id="food-menu-section"
+      style="background-image: url(assets/banner1.jpg)"
+    >
+      <div class="container">
+        <div class="food-menu">
+          <h1>What will <span style="color: #ff790b">you</span> eat today?</h1>
+          <p>
+            Hari ini, cita rasa apa yang akan Anda nikmati? Temukan jawabannya
+            dalam setiap hidangan dessert dan puding istimewa yang kami sajikan.
+          </p>
+          <div class="food-category">
+            <div class="zoom play-on-scroll">
+              <button class="active" data-food-type="all">All food</button>
+            </div>
+            <div class="zoom play-on-scroll delay-2">
+              <button data-food-type="salad">Brownies</button>
+            </div>
+            <div class="zoom play-on-scroll delay-4">
+              <button data-food-type="lorem">Puding</button>
+            </div>
+          </div>
+
+          <div class="food-item-wrap all">
+            <div class="food-item salad-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/brownies1.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div style="text-align: center">
+                    <h3>Anggur dengan topping oreo</h3>
+                    <span> 10K </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item salad-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/brownies2.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div style="text-align: center">
+                    <h3>Vanilla Blue dengan topping coco crunch</h3>
+                    <span> 10K </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item salad-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/brownies3.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div style="text-align: center">
+                    <h3>Matcha dengan topping keju</h3>
+                    <span> 10K </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item salad-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/brownies4.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div style="text-align: center">
+                    <h3>Coklat dengan topping keju dan selai</h3>
+                    <span> 12K </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item salad-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/brownies5.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div style="text-align: center">
+                    <h3>Coklat dengan topping oreo dan selai</h3>
+                    <span> 12K </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item salad-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/brownies6.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div style="text-align: center">
+                    <h3>Coklat dengan topping keju</h3>
+                    <span> 10K </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="food-item salad-type">
+              <div class="item-wrap bottom-up play-on-scroll">
+                <div class="item-img">
+                  <div
+                    class="img-holder bg-img"
+                    style="background-image: url(assets/brownies7.jpg)"
+                  ></div>
+                </div>
+                <div class="item-info">
+                  <div style="text-align: center">
+                    <h3>Strawberry dengan selai keju dan oreo</h3>
+                    <span> 12K </span>
+                  </div>
+                  <div class="cart-btn">
+                    <i class="bx bx-cart-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+    <!-- TESTIMONIAL SECTION -->
+    <section id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-xs-12">
+            <div class="review-wrap zoom play-on-scroll delay-2">
+              <div class="review-content">
+                <p>
+                  Harganya murah gaess ga bikin kantong kering deh,, untuk
+                  rasanya manis seperti ownernya wokwowkwokw
+                </p>
+                <div
+                  class="review-img bg-img"
+                  style="
+                    background-image: url(assets/close-up-portrait-cute-young-woman-holding-textbook-colored-pencils-posing-studio-isolated-pink_176532-9674.jpg);
+                  "
+                ></div>
+              </div>
+              <div class="review-info">
+                <h3>Lutpi de MOnkey</h3>
+                <div class="rating">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-xs-12">
+            <div class="zoom play-on-scroll">
+              <div class="review-wrap active">
+                <div class="review-content">
+                  <p>Kemasan praktis rasa brownies anggurnya ga bikin enek</p>
+                  <div
+                    class="review-img bg-img"
+                    style="
+                      background-image: url(assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg);
+                    "
+                  ></div>
+                </div>
+                <div class="review-info">
+                  <h3>Dindulganteng49</h3>
+                  <div class="rating">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-xs-12">
+            <div class="review-wrap zoom play-on-scroll delay-4">
+              <div class="review-content">
+                <p>
+                  Kuerenn cak! pengiriman mendarat sampai tujuan dengan selamat
+                </p>
+                <div
+                  class="review-img bg-img"
+                  style="
+                    background-image: url(assets/portrait-happy-young-man_171337-21716.jpg);
+                  "
+                ></div>
+              </div>
+              <div class="review-info">
+                <h3>Budi gaming02</h3>
+                <div class="rating">
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+    <!-- FOOTER SECTION -->
+    <section
+      class="footer bg-img"
+      style="background-image: url(assets/bannerfooter.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-xs-12">
+            <h1>Desert & Puding by Chocomochic</h1>
+            <br />
+            <p>
+              Setiap produk adalah cermin dari dedikasi kami untuk menyajikan
+              rasa sempurna. Kami harap produk brownies dan puding kami mampu
+              memanjakan selera Anda.
+            </p>
+            <br />
+            <p>Email: nabilahabil95@mail.com</p>
+            <p>Phone: 0895 0769 5268</p>
+            <p>Website: ChocomochicBrownies.com</p>
+          </div>
+          <div class="col-2 col-xs-12">
+            <h1>Location</h1>
+            <br />
+
+            <p>Kras, Kota Kediri</p>
+          </div>
+
+          <div class="col-4 col-xs-12">
+            <h1>Type on here</h1>
+            <br />
+
+            <form
+              action="https://formsubmit.co/0566304d04c453a7b852ed039788cb90"
+              method="POST"
+            >
+              <!-- 2 column grid layout with text inputs for the first and last names -->
+              <div class="row mb-4">
+                <div class="col" style="margin-bottom: 10px">
+                  <div class="form-outline">
+                    <input
+                      type="text"
+                      id="form3Example1"
+                      class="form-control"
+                    />
+                    <label class="form-label" for="form3Example1">Namamu</label>
+                  </div>
+                </div>
+                <div class="col" style="margin-bottom: 10px">
+                  <div class="form-outline">
+                    <input
+                      type="text"
+                      id="form3Example2"
+                      class="form-control"
+                    />
+                    <label class="form-label" for="form3Example2"
+                      >Pesananmu</label
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form3Example3" class="form-control" />
+                <label class="form-label" for="form3Example3">Email</label>
+              </div>
+
+              <br />
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary btn-block mb-4">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOTER SECTION -->
+
+    <script src="index.js"></script>
+  </body>
+</html>
